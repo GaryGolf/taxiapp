@@ -1,15 +1,17 @@
 import * as React from 'react'
-import { View, Text } from 'react-native'
+import { Provider, Store } from 'react-redux';
+import store from './store'
+import Main from './containers/main'
 
 interface Props {}
 interface State {}
 
-export default class HelloWorld extends React.Component<Props,State>{
-  render(){
+export default class TaxiApp extends React.Component<Props,State>{
+  render() {
     return (
-      <View>
-        <Text> Hello World</Text>
-      </View>
+      <Provider store={store}>
+        <Main/>
+      </Provider>
     )
   }
 }

@@ -10,12 +10,17 @@
     "test": "node node_modules/jest/bin/jest.js --watch"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "react-native"
   },
   "devDependencies": {
     "@types/react": "^16.0.7",
     "@types/react-native": "^0.48.7",
     "@types/react-navigation": "^1.0.20",
+    "@types/react-redux": "^5.0.9",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.4",
+    "@types/redux-promise-middleware": "0.0.8",
+    "@types/redux-thunk": "^2.1.0",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "jest-expo": "~20.0.0",
     "npm-run-all": "^4.1.1",
@@ -25,6 +30,11 @@
   "dependencies": {
     "react": "16.0.0-alpha.12",
     "react-native": "^0.47.0",
-    "react-navigation": "^1.0.0-beta.13"
+    "react-navigation": "^1.0.0-beta.13",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.4.1",
+    "redux-thunk": "^2.2.0"
   }
 }

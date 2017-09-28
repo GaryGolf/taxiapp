@@ -1,0 +1,1 @@
+export const NOTHING_HAPPEND = 'NOTHING_HAPPEND'
