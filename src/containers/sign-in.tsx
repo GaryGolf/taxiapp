@@ -25,6 +25,7 @@ export default class SignIn extends React.Component <Props, null> {
   }
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
